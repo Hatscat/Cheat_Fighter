@@ -1,0 +1,20 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #ccc;
+	position: fixed;
+	overflow: hidden;
+}
+
+canvas {
+	position: absolute;
+	cursor: crosshair; /* pointer / crosshair */
+}
+
+iframe {
+	position: absolute;
+	overflow: auto;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
