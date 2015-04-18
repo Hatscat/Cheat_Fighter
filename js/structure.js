@@ -6,7 +6,7 @@
 
 	window.preload = function () {
 
-		data = get_config();
+		data = get_global_config();
 
 		PRELOAD(data);
 	}

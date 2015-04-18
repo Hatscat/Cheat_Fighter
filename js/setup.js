@@ -4,6 +4,9 @@ function SETUP (data) {
 
 								window.data = data; // warning : tmp, to dev, to rm after
 
+
+	data.current_scene = data.SCENES_ID.MENU;
+
 	/*var img_nb = 0;
 	var loaded_img_nb = 0;
 
