@@ -21,7 +21,7 @@ function get_bowmob_config () {
 		charge_max_range: 0.5,
 		sprites: {
 			idle: {
-				img_name: "swordmob_spritesheet",
+				img_name: "bowmob_spritesheet",
 				anim_idx: [ 0 ],
 				anim_speed: 50 // in ms, 100 = 10 fps
 			},

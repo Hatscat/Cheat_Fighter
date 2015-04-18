@@ -2,7 +2,7 @@
  
 function DRAW (data) {
 
-	data.delta_time = 60 / frameRate(); // ratio à appliquer aux valeurs sensibles au framerate
+	data.delta_time = 60 / frameRate(); // for framerate independance
 	
 	switch (data.current_scene) {
 
@@ -20,8 +20,7 @@ function DRAW (data) {
 		break;
 	}
 
-
-	// frame rate
+	// framerate visualisation
 	fill(0, 255, 0);
 	textSize(width * 0.0225 | 0);
 	text(frameRate()+0.5|0, 10, 30);

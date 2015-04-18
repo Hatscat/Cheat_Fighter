@@ -1,6 +1,6 @@
 "use strict";
 
-function for_eah_components_in_page (data, page_name, func) {
+/*function for_eah_components_in_page (data, page_name, func) {
 
 	if (!data.app_content.pages[page_name]) {
 		return;
@@ -41,3 +41,4 @@ function set_component_box (data, comp) {
 		comp.box.y = data.page_y + data.app_buf_y + comp.y * data.app_buf.height - comp.box.h * comp.anchor_y | 0;
 	}
 }
+*/

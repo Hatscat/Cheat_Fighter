@@ -1,6 +1,6 @@
 "use strict";
 
-function is_point_inside (P, x, y, w, h) {
+function is_point_inside_box (P, x, y, w, h) {
 
 	return P.x >= x && P.x <= x+w && P.y >= y && P.y <= y+h;
 }
@@ -16,7 +16,7 @@ function is_circles_collides (x0, y0, r0, x1, y1, r1) {
 	}
 	return true;
 }
-
+/*
 function wait (bool_container, bool_name_to_test, time, next) {
 
 	if (bool_container[bool_name_to_test]) {
@@ -24,8 +24,8 @@ function wait (bool_container, bool_name_to_test, time, next) {
 	} else {
 		window.setTimeout(function(){wait(bool_container,bool_name_to_test,time,next)}, time);
 	}
-}
-
+}*/
+/*
 function swap (array, a, b) {
 
 	var tmp = array[a];
@@ -56,3 +56,4 @@ function quick_sort_from_obj_prop (array, prop_name, dir, start, end) {
 	quick_sort_from_obj_prop(array, prop_name, dir, start, right);
 	quick_sort_from_obj_prop(array, prop_name, dir, right+1, end);
 }
+*/
