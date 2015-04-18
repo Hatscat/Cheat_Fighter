@@ -13,16 +13,18 @@ function get_global_config () {
 		recup_delay: 300, // im ms, delays are the same for all !
 		block_delay: 500,
 		attack_delay: 800,
+		looping_power_sign_delay: 1000, // after an attack, for combo at the same damage value
 		fonts: {
 			google: {
 				families: [
 					'Droid Serif', 'Droid Serif:b',
 					'Cinzel', 'Cinzel:b'
-				],
+				]
 			}
 		},
 		image_mode: CENTER,
 		canvas: null,
+		player: null,
 		canvas_min_size_ratio: 1,
 		canvas_max_size_ratio: 1,
 		delta_time: 1,
@@ -103,79 +105,85 @@ function get_global_config () {
 		},
 		images: {
 			gladiator_spritesheet: {
-				src: 'url',
-				cols: 3,
-				rows: 2
+				src: 'img/gladiator_spritesheet.png',
+				cols: 5,
+				rows: 4
 			},
 			swordmob_spritesheet: {
+				src: 'img/swordmob_spritesheet.png',
+				cols: 5,
+				rows: 3
+			},
+			/*bowmob_spritesheet: {
 				src: 'url',
 				cols: 3,
 				rows: 2
-			},
-			bowmob_spritesheet: {
+			},*/
+			/*horsemob_spritesheet: {
 				src: 'url',
 				cols: 3,
 				rows: 2
-			},
-			horsemob_spritesheet: {
-				src: 'url',
-				cols: 3,
-				rows: 2
-			},
+			},*/
 			arena_sand: {
-				src: 'url',
+				src: 'img/sand.png',
 				cols: 1,
 				rows: 1
 			},
 			arena_tribune: {
-				src: 'url',
+				src: 'img/arena_quarter.png',
 				cols: 1,
 				rows: 1
 			},
-			menu_screen: {
+			looping_power_sign_ui: {
+				src: 'img/sword.png'
+			},
+			cheat_power_ui: {
+				src: 'img/skull_ui.png'
+			},
+			/*menu_screen: {
 				src: 'url'
-			},
-			new_round_screen: {
+			},*/
+			/*new_round_screen: {
 				src: 'url'
-			},
-			game_over_screen: {
+			},*/
+			/*game_over_screen: {
 				src: 'url'
-			},
-			sword_trail: {
+			},*/
+			/*sword_trail: {
 				src: 'url',
 				cols: 1,
 				rows: 1
-			},
-			shield_trail: {
+			},*/
+			/*shield_trail: {
 				src: 'url',
 				cols: 1,
 				rows: 1
-			},
-			arrow_trail: {
+			},*/
+			/*arrow_trail: {
 				src: 'url',
 				cols: 1,
 				rows: 1
-			},
-			charge_trail: {
+			},*/
+			/*charge_trail: {
 				src: 'url',
 				cols: 1,
 				rows: 1
-			},
+			},*/
 			rocket: {
-				src: 'url',
+				src: 'img/rocket.png',
 				cols: 1,
 				rows: 1
 			},
-			rocket_trail: {
+			/*rocket_trail: {
 				src: 'url',
 				cols: 1,
 				rows: 1
-			},
-			rocket_explosion: {
+			},*/
+			/*rocket_explosion: {
 				src: 'url',
 				cols: 1,
 				rows: 1
-			}
+			}*/
 		},
 		audio: {
 			music_01: {

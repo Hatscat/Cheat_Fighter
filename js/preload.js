@@ -16,10 +16,10 @@ function PRELOAD (data) {
 	WebFont.load(data.fonts);
 
 	// images loading
-	/*for (var i in data.images) {
+	for (var i in data.images) {
 
 		data.images[i].img = loadImage(data.images[i].src);
-	}*/
+	}
 
 	// audio loading
 	/*for (var i in data.audio) {

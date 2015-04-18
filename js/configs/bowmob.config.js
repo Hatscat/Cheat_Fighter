@@ -10,6 +10,8 @@ function get_bowmob_config () {
 		attack_radius: 0.1,
 		block_origin: 0.1,
 		block_radius: 0.1,
+		block_repulsion_strength: 0.2,
+		block_repulsion_resistance: 0.1,
 		attack_damage_min: 5,
 		attack_damage_max: 24,
 		walk_min_speed: 5,

@@ -7,6 +7,9 @@ function SETUP (data) {
 
 	data.current_scene = data.SCENES_ID.MENU;
 
+	//data.player = new Avatar(data, data.avatars_config.gladiator, world_x, world_y); // not here
+
+
 	/*var img_nb = 0;
 	var loaded_img_nb = 0;
 
