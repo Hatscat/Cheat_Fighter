@@ -27,28 +27,44 @@ function get_swordmob_config () {
 			idle: {
 				img_name: "swordmob_spritesheet",
 				anim_idx: [ 0 ],
-				anim_speed: 50 // in ms, 100 = 10 fps
+				anim_speed: 200 // in ms, 100 = 10 fps
 			},
 			walk: {
-
+				img_name: "swordmob_spritesheet",
+				anim_idx: [ 1, 2 ],
+				anim_speed: 100,
+				loop: true
 			},
 			run: {
-
+				img_name: "swordmob_spritesheet",
+				anim_idx: [ 3, 4 ],
+				anim_speed: 50,
+				loop: true
 			},
 			block: {
-
+				img_name: "swordmob_spritesheet",
+				anim_idx: [ 10, 11, 12, 13, 14 ],
+				loop: false
 			},
 			attack: {
-
+				img_name: "swordmob_spritesheet",
+				anim_idx: [ 5, 6, 7, 8, 9 ],
+				loop: false
 			},
 			charge: {
-
+				img_name: "swordmob_spritesheet",
+				anim_idx: [ 7 ],
+				loop: true
 			},
 			hurt: {
-
+				img_name: "gladiator_spritesheet",
+				anim_idx: [ 15, 16, 17 ],
+				loop: false
 			},
 			die: {
-
+				img_name: "gladiator_spritesheet",
+				anim_idx: [ 18, 19 ],
+				loop: false
 			}
 		},
 		sounds: {

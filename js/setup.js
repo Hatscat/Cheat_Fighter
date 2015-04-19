@@ -6,6 +6,15 @@ function SETUP (data) {
 
 
 	data.current_scene = data.SCENES_ID.MENU;
+	
+	data.canvas = createCanvas(1, 1);
+
+	imageMode(data.image_mode);
+
+	data.sand_graphic = createGraphics(1, 1);
+
+	data.sand_graphic.noStroke();
+
 
 	//data.player = new Avatar(data, data.avatars_config.gladiator, world_x, world_y); // not here
 

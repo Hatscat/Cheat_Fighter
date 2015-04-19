@@ -24,6 +24,7 @@ function get_global_config () {
 		},
 		image_mode: CENTER,
 		canvas: null,
+		sand_graphic: null,
 		player: null,
 		canvas_min_size_ratio: 1,
 		canvas_max_size_ratio: 1,
@@ -89,7 +90,7 @@ function get_global_config () {
 				sound_name: 'music_01'
 			},
 			battle: {
-				sound_name: 'music_02'
+				sound_name: 'audio/sound_of_fury.mp3'
 			},
 			game_over: {
 				sound_name: 'music_03'
@@ -221,8 +222,7 @@ function get_global_config () {
 			},
 			dying_scream_01: {
 				src: 'url'
-			},
-			//etc.
+			}
 		}
 
 	};
